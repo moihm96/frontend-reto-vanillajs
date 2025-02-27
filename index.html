@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend reto VANILLA JS</title>
+  </head>
+  <body>
+    <div class="todo-container">
+      <header>
+        <h1 class="todo-header">This is a technical proof</h1>
+      </header>
+      <span class="todo-description"
+        >Lorem ipsum dolor sit amet consectetur adipiscing, elit mus primis nec
+        inceptos. Lacinia habitasse arcu molestie maecenas cursus quam nunc,
+        hendrerit posuere augue fames dictumst placerat porttitor, dis mi
+        pharetra vestibulum venenatis phasellus.</span
+      >
+      <ul class="todo-list"></ul>
+      <div class="todo-button-container">
+        <div class="group-delete-button">
+          <button class="secondary-button todo-undo-button">
+            <i class="fa fa-rotate-left"></i>
+          </button>
+          <button class="secondary-button todo-delete-button">DELETE</button>
+        </div>
+        <button
+          onclick="location.href='./prompt/index.html'"
+          class="primary-button todo-add-button"
+        >
+          ADD
+        </button>
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
